@@ -17,6 +17,35 @@ h1 {
   text-align: center;
 }
 
+#global-action {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 15px;
+}
+
+.global-button {
+  background-color: #4285F4;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 8px 16px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.global-button:hover {
+  background-color: #3367d6;
+}
+
+.global-button.unmute {
+  background-color: #E53935;
+}
+
+.global-button.unmute:hover {
+  background-color: #c62828;
+}
+
 .tab-item {
   display: flex;
   align-items: center;
